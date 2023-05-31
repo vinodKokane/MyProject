@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">
+          <h4>Vk.<span>Brand</span></h4>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-search"></i>
+          <input type="text" placeholder="search" />
+        </div>
+        <i class="fa-solid fa-bell"></i>
+        <div class="user">
+          <img src="Image/beard-logo.png" alt="" />
+        </div>
+      </div>
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-home"></i>
+              <h4>Dashboard</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h4>Student</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-chalkboard-user"></i>
+              <h4>Teachers</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-bar-chart"></i>
+              <h4>Analytics</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fas fa-users"></i>
+              <h4>Employees</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-sack-dollar"></i>
+              <h4>Earning</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-gear"></i>
+              <h4>Setting</h4>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-solid fa-question"></i>
+              <h4>Help</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="cards">
+          <div class="card">
+            <div class="card-content">
+              <div class="number">1200</div>
+              <div class="card-name">Education</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="number">600</div>
+              <div class="card-name">Teacher</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="number">7000</div>
+              <div class="card-name">Earning</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-bar-chart"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="number">1L+</div>
+              <div class="card-name">User</div>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-users"></i>
+            </div>
+          </div>
+        </div>
+        <div class="charts">
+          <div class="chart">
+            <canvas id="myChart"></canvas>
+          </div>
+          <div class="chart" id="doughnut-chart">
+            <h2>Employee</h2>
+            <canvas id="doughnut"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  chart js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- chart1 js -->
+    <script src="Js/chart1.js"></script>
+
+    <!-- chart2 js -->
+    <script src="Js/chart2.js"></script>
+  </body>
+</html>
